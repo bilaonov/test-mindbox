@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "types": ["vitest", "node", "@testing-library/jest-dom"],
+    "paths": {
+      "@/*": ["*"],
+      "@types": ["types"],
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"]
+    }
+  }
+}
